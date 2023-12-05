@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@1,500&family=Italiana&family=Montserrat:wght@100&family=Nunito+Sans:opsz,wght@6..12,500&family=Open+Sans:wght@300&family=Poppins:ital,wght@1,600;1,800&family=Sofia+Sans+Condensed:ital,wght@0,700;0,900;1,1;1,300&display=swap');
+
+body {
+    background-color: #383838;
+}
+.video-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 1510px;
+    height: 1080px;
+    filter: blur(10px);
+    z-index: -1;
+    margin-top: -200px;
+
+    margin-right: 1000px;
+
+}
+#cima-tudo {
+    display: flex;
+}
+#cima-tudo img {
+    width: 130px;
+    margin-left: 50px;
+    height: 100px;
+}
+#cima-tudo h2 {
+    font-family: 'Chakra Petch', sans-serif;
+    color: white;
+}
+#cima-tudo span {
+    color: #8BFF63;
+}
+.nav {
+    margin-left: 500px;
+    display: flex;
+}
+.nav button {
+    margin-left: 50px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    transition: 0.5s;
+    background: transparent;
+    border: none;
+    font-size: 14.5px;
+    height: 20px;
+    margin-top: 25px;
+}
+.nav button:hover {
+    font-family: 'Chakra Petch', sans-serif;
+    color: #8BFF63;
+    
+}
+
+
+#tudo {
+    margin-top: 100px;
+    margin-left: 200px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#tudo h1 {
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 60px;
+    color: white;
+}
+#tudo span {
+    color: #8BFF63;
+    margin-left: 150px;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+.conteudo-tudo {
+    display: flex;
+    flex-direction: column;
+}
+
+#barra {
+    width: 408px;
+}
+
+.conteudo-tudo input {
+    height: 40px;
+    width: 400px;
+    border: none;
+    border-radius: 20px;
+}
+#entradaSenha::placeholder {
+    font-family: sans-serif;
+    padding-left: 10px;
+}
+
+#medidorPoder {
+    margin-top: 10px;
+    height: 20px;
+    width: 0;
+    background-color: gray;
+    transition: width 0.3s, background-color 0.3s;
+}
+
+#requisitos {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.requisito {
+    margin-right: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.vermelho {
+    color: red;
+    transition: color 0.3s;
+}
+
+.verde {
+    color: green;
+    transition: color 0.3s;
+}
+
+#textoPoder {
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#mostrarSenha {
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #4285F4;
+}
+#textoPoder {
+    margin-left: 130px;
+    color: rgb(174, 174, 174);
+    font-family: sans-serif;
+}
+#requisitoComprimento, #requisitoMinusculo, #requisitoMaiusculo, #requisitoNumero, #requisitoSimbolo {
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+
+}
